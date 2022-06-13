@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <template v-for="(c, i) in compras">
-      <div class="flex mb-3 px-6 hover:bg-black/5">
+      <div class="flex mb-3 sm:px-6 px-0 hover:bg-black/5">
         <figure>
           <img :src="c.product.image" :alt="c.product.name" class="w-80 h-56" />
         </figure>
